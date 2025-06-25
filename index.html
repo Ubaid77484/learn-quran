@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn Quran online with free trial classes. Qaida, Tajweed, Hifz, and Islamic education.">
+  <meta name="keywords" content="Quran classes, online Quran teacher, learn Tajweed, Hifz program, free trial, Islamic education, online madrasa">
+  <meta name="author" content="Ubaid Ullah Saadi">
+  <title>Learn Quran with Ubaid Ullah Saadi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Lobster&family=Amiri&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Raleway', sans-serif;
+      line-height: 1.8;
+      background: linear-gradient(to bottom, #e8f5f0, #ffffff);
+      color: #003300;
+    }
+    header {
+      background: url('https://cdn.pixabay.com/photo/2021/01/04/10/09/koran-5886445_1280.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+      box-shadow: inset 0 0 0 2000px rgba(0, 51, 0, 0.5);
+    }
+    header h1 {
+      font-size: 3.5rem;
+      font-family: 'Lobster', cursive;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+    nav {
+      background: #004d26;
+      padding: 1em;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #ffd700; }
+
+    .section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: #ffffffdd;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    }
+    h2 {
+      text-align: center;
+      color: #006400;
+      margin-bottom: 25px;
+      font-family: 'Lobster', cursive;
+      font-size: 2.4rem;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+    }
+    .gallery figure {
+      position: relative;
+      margin: 0;
+    }
+    .gallery figcaption {
+      position: absolute;
+      bottom: 0;
+      background: rgba(0,0,0,0.6);
+      color: white;
+      width: 100%;
+      padding: 5px;
+      text-align: center;
+      font-size: 0.95rem;
+    }
+
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      background: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    ul.course-list {
+      list-style-type: none;
+      padding: 0;
+      font-size: 1.3rem;
+      font-family: 'Amiri', serif;
+    }
+    ul.course-list li {
+      background: #e6f4ea;
+      margin: 10px 0;
+      padding: 15px 20px;
+      border-left: 6px solid #004d26;
+      border-radius: 6px;
+    }
+
+    footer {
+      background: #004d26;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      font-size: 0.95rem;
+    }
+
+    @media(max-width: 768px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+      header h1 {
+        font-size: 2.2rem;
+      }
+      .gallery img {
+        width: 90vw;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav data-aos="fade-down">
+    <a href="#courses">Courses</a>
+    <a href="#about">About Us</a>
+    <a href="#teachers">Our Teachers</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#dashboard">Dashboard</a>
+  </nav>
+
+  <header data-aos="fade-in">
+    <h1>Learn Quran with Ubaid Ullah Saadi</h1>
+    <p>Online Quran classes with Tajweed, Hifz, and Islamic Studies</p>
+  </header>
+
+  <section id="courses" class="section" data-aos="fade-up">
+    <h2>Our Courses</h2>
+    <ul class="course-list">
+      <li>📘 Qaida for Beginners</li>
+      <li>📖 Quran with Tajweed</li>
+      <li>🧠 Memorization (Hifz)</li>
+      <li>🕌 Islamic Studies</li>
+    </ul>
+  </section>
+
+  <section class="section" data-aos="fade-up">
+    <h2>Children Learning Quran</h2>
+    <div class="gallery">
+      <figure><img src="https://i.ibb.co/0c8qFvx/quran-kids1.jpg" alt="Child reciting Quran"><figcaption>Dedicated student learning to recite</figcaption></figure>
+      <figure><img src="https://i.ibb.co/dLBGnNR/quran-kids2.jpg" alt="Child with teacher"><figcaption>One-on-one Quran session</figcaption></figure>
+      <figure><img src="https://i.ibb.co/V2nm9kv/quran-kids3.jpg" alt="Kids reading Quran"><figcaption>Group of kids reading Quran</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="about" class="section" data-aos="fade-up">
+    <h2>About Us</h2>
+    <p>We provide online Quran education to students of all ages, taught by expert teachers with flexible schedules and affordable pricing. Start your journey today!</p>
+  </section>
+
+  <section id="teachers" class="section" data-aos="fade-up">
+    <h2>Our Teachers</h2>
+    <p>Certified and experienced Quran teachers, both male and female, trained in Tajweed and Islamic Studies to guide you step by step.</p>
+  </section>
+
+  <section id="pricing" class="section" data-aos="fade-up">
+    <h2>Pricing / Plans</h2>
+    <p>Flexible and affordable rates. Contact us for free trial and monthly plans. Discounts available for families.</p>
+  </section>
+
+  <section id="dashboard" class="section" data-aos="fade-up">
+    <h2>Dashboard (Coming Soon)</h2>
+    <p>Interactive dashboard for students with lesson tracking, feedback, recordings, and class notes. Stay connected and organized.</p>
+  </section>
+
+  <a class="whatsapp-button" href="https://wa.me/923098080577" target="_blank">📱 WhatsApp Us</a>
+
+  <footer>
+    &copy; 2025 Learn Quran with Ubaid Ullah Saadi | Contact: rehmatbibi@gmail.com | WhatsApp: 03098080577, 03035337733
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>
